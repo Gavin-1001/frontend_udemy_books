@@ -1,8 +1,11 @@
 import React from "react";
 
+
 import "./App.css";
 import { ExploreTopBooks } from "./layouts/HomePage/ExploreTopBooks";
+import { Carousel } from "./layouts/HomePage/Carousel";
 import Navbar from "./layouts/NavbarAndFooter/Navbar";
+
 
 function App() {
   return (
@@ -10,6 +13,7 @@ function App() {
 
       <Navbar />
       <ExploreTopBooks />
+      <Carousel />
     </div>
   );
 }
